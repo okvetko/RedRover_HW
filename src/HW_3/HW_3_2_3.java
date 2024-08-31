@@ -25,7 +25,7 @@ public class HW_3_2_3 {
         int x = 40;
         int y = 60;
         for (int i = a; i <= b; i++) {
-            System.out.println((i % 4) == 0 ? i: "");
+            System.out.print((i % 4) == 0 ? i: " ");
         }
         }
     }
