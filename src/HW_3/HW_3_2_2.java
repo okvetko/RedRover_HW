@@ -14,6 +14,12 @@ public class HW_3_2_2 {
                 System.out.println(i);
             }
             }
+
+        // второй вариант
+//        for (int i = 0; i < 10000; i = i * 5) {
+//            System.out.println(i);
+
+        }
         }
 
 
