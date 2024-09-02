@@ -9,7 +9,7 @@ public class HW_3_2_2 {
          */
         int base = 5;
         for (int i = 1; ; i++) {
-            if( base < 1000){
+            if( base < 10000){
                 base = base * 5;
                 System.out.println(i);
             }
