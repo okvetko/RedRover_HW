@@ -19,7 +19,7 @@ public class HW_3_1_3 {
       if(a < 100){
           System.out.println("меньше 100");
       }
-      if(a / 2 > 20){
+      if(1.0 * a / 2 > 20){
           System.out.println("результат деления на 2 больше 20");
       }
       if(a > 5 && a < 40){
