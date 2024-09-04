@@ -12,7 +12,7 @@ int[] array = {9, 2, 6, 4, 5, 12, 7, 8, 6};
             if(array[i] > 5) {
                 System.out.println(array[i]);
             }
-
+//git
         }
     }
 }
