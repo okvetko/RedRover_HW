@@ -13,8 +13,8 @@
 //            for (int j = 0; j < array[i].length; j++) {
 //                count++;
 //                for (int k = 0; k < array[i][j].length(); k++) {
-//                    if(array[i][j].charAt(k) != 'е'){
-//array[i].length
+//                    if(array[i][j].charAt(k) == 'е'){
+//array[i].length;
 //                    }
 //
 //                }

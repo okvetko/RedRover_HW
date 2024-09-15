@@ -1,8 +1,8 @@
 package HW_6;
 
 public class Worker {
-    int salary;
+    int baseSalary;
 public int getSalary(){
-    return salary;
+    return baseSalary;
 }
 }

@@ -1,6 +1,6 @@
 package HW_5;
 
-public class HW_5_4 {
+public class HW_5_1_4 {
     public static void main(String[] args) {
         /*Дан массив:
 int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
