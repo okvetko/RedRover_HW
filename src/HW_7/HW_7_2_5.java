@@ -7,11 +7,12 @@ public class HW_7_2_5 {
 countingSheep(1);
     }
     public static String countingSheep(int num) {
+        String result = "";
         for (int i = 1; i <= num; i++) {
+            result += i + " sheep..."
 
-            System.out.print(i + " sheep...");
-        }
+            }
 
-        return "";
+        return result;
     }
 }
