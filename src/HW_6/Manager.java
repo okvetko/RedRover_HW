@@ -1,20 +1,37 @@
-//package HW_6;
-//
-//public class Manager {
-//    int numberOfSubordinates;
-//    int salary;
-//    int baseSalary;
-//    public int getNumberOfSubordinates(){
-//        return numberOfSubordinates;
-//    }
-//    public int setNumberOfSubordinates(int numberOfSubordinates){
-//        numberOfSubordinates = 10;
-//    }
-//    public int getSalary(int baseSalary){
-//        baseSalary = 50;
-//        salary = baseSalary * numberOfSubordinates/100 * 3;
-//        if(numberOfSubordinates == 0){
-//            salary = baseSalary;
-//        }
-//    }
-//}
+package HW_6;
+
+public class Manager {
+    double baseSalary;
+    String name;
+    int numberOfSubordinates;
+
+
+    public double getBaseSalary() {
+        return baseSalary;
+    }
+
+    public void setBaseSalary(double baseSalary) {
+        this.baseSalary = baseSalary;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getNumberOfSubordinates(){
+        return getNumberOfSubordinates();
+    }
+
+    public void setNumberOfSubordinates(int numberOfSubordinates) {
+        this.numberOfSubordinates = numberOfSubordinates;
+    }
+
+    public double getSalary() {
+        return getBaseSalary() * getNumberOfSubordinates() / 100 * 3;
+    }
+}
