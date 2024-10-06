@@ -9,7 +9,7 @@ countingSheep(1);
     public static String countingSheep(int num) {
         String result = "";
         for (int i = 1; i <= num; i++) {
-            result += i + " sheep..."
+            result += i + " sheep...";
 
             }
 
