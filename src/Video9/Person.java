@@ -1,8 +1,9 @@
 package Video9;
 
 public class Person {
-    String name;
-    int age;
+    public String name;
+
+    public int age;
 
     public void setName(String name) {
 
@@ -18,5 +19,7 @@ public class Person {
 
         return name;
     }
+
+
 }
 
